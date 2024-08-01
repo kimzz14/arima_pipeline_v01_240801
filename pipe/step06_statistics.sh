@@ -1,4 +1,5 @@
-readID=SRR19088062
+readID=$1
+threadN=$2
 MIN_MAPQ=10
 STATS='./script/mapping_pipeline/get_stats.pl'
 

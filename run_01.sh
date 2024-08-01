@@ -1,0 +1,1 @@
+sh ./pipe/run_arima_pipeline.sh test 128

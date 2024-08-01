@@ -1,7 +1,7 @@
 #echo "### Step 3A: Pair reads & mapping quality filter"
-readID=SRR19088062
+readID=$1
+threadN=$2
 MIN_MAPQ=30
-threadN=24
 COMBINER='./script/mapping_pipeline/two_read_bam_combiner.pl'
 
 perl $COMBINER ${readID}.5P_1.bam ${readID}.5P_2.bam samtools ${MIN_MAPQ} \

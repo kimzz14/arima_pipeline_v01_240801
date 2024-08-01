@@ -1,5 +1,5 @@
-readID=SRR19088062
-threadN=24
+readID=$1
+threadN=$2
 MIN_MAPQ=30
 
 bellerophon \

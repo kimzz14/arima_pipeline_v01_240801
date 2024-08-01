@@ -1,6 +1,6 @@
-readID=SRR19088062
+readID=$1
+threadN=$2
 readDir=/archive/kimzz14/SRA_RAW/INSDC/Nibea_coibor/PRJNA827677
-threadN=24
 
 #original
 #bwa mem -t ${threadN} bwadb/ref.fa ${readDir}/${readID}_1.fastq.gz 2> ${readID}_1.bwa_mem.log | samtools view -@ ${threadN} -Sb - > ${readID}_1.bam
