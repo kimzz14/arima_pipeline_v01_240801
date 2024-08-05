@@ -1,4 +1,5 @@
-readID=SRR19088062
+readID=$1
+threadN=$2
 MIN_MAPQ=30
 
 gatk --java-options "-Djava.io.tmpdir=./tmp" AddOrReplaceReadGroups \
